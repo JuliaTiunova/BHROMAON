@@ -21,6 +21,25 @@
   &__scroll {
     height: 40px;
   }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__search {
+    width: 647px;
+    height: 60px;
+    padding-left: 36px;
+    font-family: $josefin;
+    color: $text-grey;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+  }
+
+  &-search {
+    font-style: 16px;
+  }
 }
 
 .scroll {

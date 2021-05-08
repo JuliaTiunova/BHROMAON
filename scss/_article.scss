@@ -2,6 +2,7 @@
   position: relative;
   &__header {
     position: sticky;
+    z-index: 10;
     top: -20px;
     background-color: $accent;
     padding-top: 32px;

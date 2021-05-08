@@ -5,9 +5,9 @@
   padding-bottom: 60px;
 
   &__line {
-    position: absolute;
-    @include h-center;
-    top: 10%;
+    text-align: center;
+    margin-top: -190px;
+    margin-left: -10px;
   }
 
   &__link {
@@ -38,6 +38,10 @@
   }
 
   &__icon {
+    position: relative;
+    z-index: 1;
     font-size: 64px;
+    line-height: 96px;
+    background-color: $dark-grey;
   }
 }

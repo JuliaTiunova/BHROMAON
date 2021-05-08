@@ -13,4 +13,20 @@
   list-style-position: 0.07em;
   text-transform: uppercase;
   border: none;
+
+  &--small {
+    min-width: 138px;
+    height: 52px;
+    margin-left: -146px;
+    background-color: $accent;
+    text-align: center;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
