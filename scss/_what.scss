@@ -1,0 +1,29 @@
+.what {
+  background: url(../img/BG_tourist.png) center center no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 180px;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  &__img {
+    height: 100%;
+  }
+
+  &__card {
+    padding: 48px 60px;
+    height: 100%;
+
+    &-title {
+      margin-bottom: 10px;
+    }
+
+    &-quote {
+      color: $accent;
+      font-size: 20px;
+    }
+  }
+}
