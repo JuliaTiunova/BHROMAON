@@ -1,0 +1,18 @@
+.social {
+  &__list {
+    @include flex-center;
+    list-style-type: none;
+  }
+
+  &__item {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  &__icon {
+    font-size: 32px;
+    &:hover {
+      color: $accent;
+    }
+  }
+}

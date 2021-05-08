@@ -45,4 +45,12 @@
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0.31em;
+
+  &--small {
+    font-family: $josefin;
+    font-weight: normal;
+    font-style: 14px;
+    letter-spacing: 0.2em;
+    line-height: 20px;
+  }
 }
