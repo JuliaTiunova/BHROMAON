@@ -23,6 +23,7 @@
             class="header__search-field serch-field"
             type="text"
             name="search"
+            placeholder="Search Your Travel Destination"
           />
           <button class="header__button button--small" type="submit">
             <i class="icon-search header-search"></i> search
@@ -39,8 +40,8 @@
         <div class="container">
           <div class="row justify-content-between">
             <div class="col-auto">
-              <div class="article__name">
-                <p>Bhromaon</p>
+              <div class="article__title">
+                <h3 class="title-3">Bhromaon</h3>
               </div>
             </div>
             <div class="col-auto">
@@ -48,16 +49,20 @@
                 <nav class="menu">
                   <ul class="menu__list">
                     <li class="menu__item">
-                      <a href="#" class="menu__link link">who we are</a>
+                      <a href="#why" class="menu__link link">who we are</a>
                     </li>
                     <li class="menu__item">
-                      <a href="#" class="menu__link link">what we do</a>
+                      <a href="#what_we_do" class="menu__link link"
+                        >what we do</a
+                      >
                     </li>
                     <li class="menu__item">
-                      <a href="#" class="menu__link link">travel with us</a>
+                      <a href="#travel" class="menu__link link"
+                        >travel with us</a
+                      >
                     </li>
                     <li class="menu__item">
-                      <a href="#" class="menu__link link">contact us</a>
+                      <a href="#contact" class="menu__link link">contact us</a>
                     </li>
                   </ul>
                 </nav>
@@ -88,34 +93,41 @@
           </ul>
         </nav>
       </div>
-      <section class="why">
+      <section class="why" id="why">
         <div class="container">
           <div class="row">
             <div class="col-12 order-2 col-md-7 col-lg-6 order-md-1">
-              <div class="why__title">
-                <h2 class="title-2">Why choose us</h2>
+              <div class="why__wrapper">
+                <div class="why__title">
+                  <h2 class="title-2">Why choose us</h2>
+                </div>
+                <p class="why__text text">
+                  Tion and dislike men who are so beguiled and demoralized by
+                  desire by the charms of pleasure of the moment, so blinded by
+                  desire, that they cannot foresee
+                </p>
+                <p class="why__text text">
+                  Ddislike men who are so beguiled and demoralized by the charms
+                  of pleasure of the moment, so blinded by desire, that.
+                </p>
+                <button class="why__button button">explore places</button>
               </div>
-              <p class="why__text text">
-                Tion and dislike men who are so beguiled and demoralized by
-                desire by the charms of pleasure of the moment, so blinded by
-                desire, that they cannot foresee
-              </p>
-              <p class="why__text text">
-                Ddislike men who are so beguiled and demoralized by the charms
-                of pleasure of the moment, so blinded by desire, that.
-              </p>
-              <button class="why__button button">explore places</button>
             </div>
             <div class="col-6 order-1 col-md-5 col-lg-4 order-md-2 offset-lg-1">
-              <img
-                class="why__img img"
-                src="img/Image_2.png"
-                alt="beautiful house on the water"
-              /><img
-                class="why__img img"
-                src="img/Image_1.png"
-                alt=" a beautiful scenery of person on a cliff in the mountains"
-              />
+              <div class="col-12 justify-cotent-start">
+                <img
+                  class="why__img why__img--1 img"
+                  src="img/Image_2.png"
+                  alt="beautiful house on the water"
+                />
+              </div>
+              <div class="col-12 justify-cotent-end">
+                <img
+                  class="why__img why__img--2 img"
+                  src="img/Image_1.png"
+                  alt=" a beautiful scenery of person on a cliff in the mountains"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -157,7 +169,7 @@
           </div>
         </div>
       </section>
-      <section class="travel-ad-up">
+      <section class="travel-ad-up" id="what_we_do">
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-6">
@@ -203,7 +215,7 @@
           </div>
         </div>
       </section>
-      <section class="what">
+      <section class="what" id="travel">
         <div class="what__title title-2">
           <h2 class="title-2">What Our Tourists Say</h2>
         </div>
@@ -239,7 +251,7 @@
         </div>
       </section>
     </article>
-    <footer class="footer">
+    <footer class="footer" id="contact">
       <div class="footer__title">
         <h3 class="title-3">Bhromaon</h3>
       </div>
@@ -249,27 +261,27 @@
       <div class="footer__social">
         <ul class="social__list">
           <li class="social__item">
-            <a href="#" class="social__link link-icon"
+            <a href="#" class="social__link link link-icon"
               ><i class="icon-facebook-f"></i
             ></a>
           </li>
           <li class="social__item">
-            <a href="#" class="social__link link-icon"
+            <a href="#" class="social__link link link-icon"
               ><i class="icon-twitter"></i
             ></a>
           </li>
           <li class="social__item">
-            <a href="#" class="social__link link-icon"
+            <a href="#" class="social__link link link-icon"
               ><i class="icon-linkedin"></i
             ></a>
           </li>
           <li class="social__item">
-            <a href="#" class="social__link link-icon"
+            <a href="#" class="social__link link link-icon"
               ><i class="icon-youtube"></i
             ></a>
           </li>
           <li class="social__item">
-            <a href="#" class="social__link link-icon"
+            <a href="#" class="social__link link link-icon"
               ><i class="icon-pinterest"></i
             ></a>
           </li>

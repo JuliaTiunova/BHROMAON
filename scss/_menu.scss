@@ -1,3 +1,13 @@
 .menu__mobile {
   display: none;
 }
+
+.menu {
+  &__list {
+    list-style-type: none;
+    display: flex;
+  }
+  &__item:not(:last-child) {
+    margin-right: 40px;
+  }
+}

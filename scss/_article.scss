@@ -1,0 +1,10 @@
+.article {
+  position: relative;
+  &__header {
+    position: sticky;
+    top: -20px;
+    background-color: $accent;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}

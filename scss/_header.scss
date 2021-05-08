@@ -1,0 +1,37 @@
+.header {
+  min-height: 100vh;
+  background: url(../img/HeaderBackground.png) center center no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 295px;
+  padding-bottom: 120px;
+
+  &__title {
+    margin-bottom: 8px;
+  }
+
+  &__subtitle {
+    margin-bottom: 45px;
+  }
+
+  &__form {
+    margin-bottom: 210px;
+  }
+  &__scroll {
+    height: 40px;
+  }
+}
+
+.scroll {
+  &-text {
+    color: $white;
+    font-family: $josefin;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+  }
+  &-icon {
+    color: $white;
+    font-size: 16px;
+  }
+}

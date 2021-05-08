@@ -1,0 +1,27 @@
+.why {
+  background: url(../img/WhyBackground.png) center center no-repeat;
+  background-size: cover;
+  padding-top: 125px;
+  padding-bottom: 125px;
+
+  &__wrapper {
+    height: 100%;
+    @include flex-column;
+  }
+
+  //   &__imgs {
+  //     display: flex;
+  //     flex-direction: column;
+  //   }
+  &__img {
+    width: 100%;
+  }
+
+  //     &--1 {
+  //       justify-self: start;
+  //     }
+
+  //     &--2 {
+  //       justify-self: end;
+  //     }
+}
