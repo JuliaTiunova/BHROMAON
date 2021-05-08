@@ -44,6 +44,12 @@
     @media (max-width: 991.98px) {
       width: 540px;
     }
+
+    @media (max-width: 566.98px) {
+      width: 95%;
+      letter-spacing: 0.1em;
+      padding-left: 10px;
+    }
   }
 
   &-search {
