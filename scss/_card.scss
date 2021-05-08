@@ -1,0 +1,12 @@
+.card {
+  background-color: $background;
+  padding: 45px 30px;
+
+  &__title {
+    margin: 16px 0;
+  }
+
+  &__text {
+    margin-bottom: 24px;
+  }
+}

@@ -10,6 +10,14 @@
     top: 10%;
   }
 
+  &__link {
+    text-decoration: none;
+    &:hover .steps__title {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
   &__title {
     margin-top: 10px;
   }
