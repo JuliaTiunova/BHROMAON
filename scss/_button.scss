@@ -21,6 +21,12 @@
     cursor: pointer;
   }
 
+  &:active {
+    background-position-x: -100%;
+    background-color: lighten($color: $accent, $amount: 10%);
+    transition: all 0.2s;
+  }
+
   &--small {
     min-width: 138px;
     height: 52px;
@@ -40,6 +46,10 @@
     &:hover {
       background-color: darken($color: $accent, $amount: 5%);
       cursor: pointer;
+    }
+    &:active {
+      background-color: lighten($color: $accent, $amount: 10%);
+      transition: all 0.2s;
     }
   }
 }

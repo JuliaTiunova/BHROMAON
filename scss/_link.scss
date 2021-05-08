@@ -8,10 +8,12 @@
   text-transform: uppercase;
   display: flex;
   align-self: center;
-  border: 2px solid transparent;
-  transition: all 0.3s;
+  transition: all 0.2s;
   &:hover {
-    border-bottom: 2px solid $white;
+    color: $accent-darker;
+    text-shadow: 20px 20px 50px $white, 20px -20px 50px $white,
+      -20px -20px 50px $white, -20px 20px 50px $white;
+    transition: all 1s;
   }
 
   &-icon {
