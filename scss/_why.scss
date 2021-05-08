@@ -9,6 +9,14 @@
     @include flex-column;
   }
 
+  &__title {
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    padding-bottom: 32px;
+  }
+
   //   &__imgs {
   //     display: flex;
   //     flex-direction: column;

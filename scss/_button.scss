@@ -1,0 +1,16 @@
+.button {
+  width: 215px;
+  padding: 20px 0;
+  background-color: $accent;
+  background-image: url(../svg/Rectangle.svg);
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: $aleo;
+  color: $white;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  list-style-position: 0.07em;
+  text-transform: uppercase;
+  border: none;
+}

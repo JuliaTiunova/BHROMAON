@@ -1,11 +1,11 @@
 @import "bootstrap-grid.min";
 @import "normalize";
-@import "button";
-@import "colors";
 @import "fonts";
+@import "colors";
+@import "mixin";
+@import "button";
 @import "title";
 @import "form";
-@import "mixin";
 @import "menu";
 @import "burger";
 @import "header";
@@ -13,6 +13,7 @@
 @import "link";
 @import "article";
 @import "why";
+@import "steps";
 
 * {
   padding: 0;

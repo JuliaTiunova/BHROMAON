@@ -1,0 +1,35 @@
+.steps {
+  position: relative;
+  background-color: $dark-grey;
+  padding-top: 105px;
+  padding-bottom: 60px;
+
+  &__line {
+    position: absolute;
+    @include h-center;
+    top: 10%;
+  }
+
+  &__title {
+    margin-top: 10px;
+  }
+}
+.step {
+  text-align: center;
+
+  &-search {
+    color: $accent;
+  }
+
+  &-check {
+    color: $red;
+  }
+
+  &-thumbs-up {
+    color: $blue;
+  }
+
+  &__icon {
+    font-size: 64px;
+  }
+}
