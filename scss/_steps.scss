@@ -22,8 +22,12 @@
     margin-top: 10px;
   }
 }
+
 .step {
   text-align: center;
+  @media (max-width: 767.98px) {
+    margin-bottom: 80px;
+  }
 
   &-search {
     color: $accent;

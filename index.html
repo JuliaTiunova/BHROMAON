@@ -33,7 +33,6 @@
       <div class="header__scroll">
         <a href="#why" class="header__link">
           <p class="scroll-text">Scroll Down</p>
-
           <i class="icon-chevron-down scroll-icon"></i
         ></a>
       </div>
@@ -42,12 +41,12 @@
       <div class="article__header">
         <div class="container">
           <div class="row justify-content-between">
-            <div class="col-auto">
+            <div class="col-12 col-lg-auto">
               <div class="article__title">
                 <h3 class="title-3">Bhromaon</h3>
               </div>
             </div>
-            <div class="col-auto">
+            <div class="col-12 col-lg-auto">
               <div class="article__menu">
                 <nav class="menu">
                   <ul class="menu__list">
@@ -116,20 +115,28 @@
                 <button class="why__button button">explore places</button>
               </div>
             </div>
-            <div class="col-6 order-1 col-md-5 col-lg-4 order-md-2 offset-lg-1">
-              <div class="col-12 justify-cotent-start">
-                <img
-                  class="why__img why__img--1 img"
-                  src="img/Image_2.png"
-                  alt="beautiful house on the water"
-                />
-              </div>
-              <div class="col-12 justify-cotent-end">
-                <img
-                  class="why__img why__img--2 img"
-                  src="img/Image_1.png"
-                  alt=" a beautiful scenery of person on a cliff in the mountains"
-                />
+            <div
+              class="col-12 order-1 col-md-5 col-lg-4 order-md-2 offset-lg-1 gy-16"
+            >
+              <div class="row">
+                <div class="col-6 col-md-12">
+                  <div class="img__wrapper img__wrapper--1">
+                    <img
+                      class="why__img why__img--1 img"
+                      src="img/Image_2.png"
+                      alt="beautiful house on the water"
+                    />
+                  </div>
+                </div>
+                <div class="col-6 col-md-12">
+                  <div class="img__wrapper img__wrapper--2">
+                    <img
+                      class="why__img why__img--2 img"
+                      src="img/Image_1.png"
+                      alt=" a beautiful scenery of person on a cliff in the mountains"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -189,7 +196,7 @@
       <section class="travel-ad-up travel" id="what_we_do">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-lg-6">
               <div class="travel-ad-up__card card">
                 <div class="card__title--small">
                   <p class="title--small">spain</p>
@@ -209,10 +216,10 @@
           </div>
         </div>
       </section>
-      <section class="travel-ad-down travel">
+      <section class="travel-ad-down travel" id="travel">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-md-6 offset-md-6">
+            <div class="col-12 col-lg-6 offset-lg-6">
               <div class="travel-ad-down__card card">
                 <div class="card__title--small">
                   <p class="title--small">spain</p>
@@ -232,20 +239,21 @@
           </div>
         </div>
       </section>
-      <section class="what" id="travel">
+      <section class="what">
         <div class="what__title title-2">
           <h2 class="title-2">What Our Tourists Say</h2>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-12 col-md-4 m-0 p-0">
+            <div class="col-12 col-lg-4 m-0 p-0">
+              <div class="what__img"></div>
               <img
-                class="what__img"
+                class="what__img--mobile"
                 src="img/ReviewPhoto.png"
-                alt="a man looking at a mountain scnery "
+                alt="tourist looking at a mountain scenery"
               />
             </div>
-            <div class="col-12 col-md-8 m-0 p-0">
+            <div class="col-12 col-lg-8 m-0 p-0">
               <div class="what__card card">
                 <div class="what__card-title">
                   <h5 class="title-5">Sam Sumon</h5>

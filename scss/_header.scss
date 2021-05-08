@@ -35,6 +35,15 @@
     font-weight: normal;
     font-size: 14px;
     letter-spacing: 0.2em;
+
+    &:focus {
+      outline: none;
+      border: 3px solid $accent;
+    }
+
+    @media (max-width: 991.98px) {
+      width: 540px;
+    }
   }
 
   &-search {
