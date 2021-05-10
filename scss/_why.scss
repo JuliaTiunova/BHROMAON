@@ -1,0 +1,40 @@
+.why {
+  background: url(../img/WhyBackground.png) center center no-repeat;
+  background-size: cover;
+  padding-top: 125px;
+  padding-bottom: 125px;
+
+  &__wrapper {
+    height: 100%;
+    @include flex-column;
+  }
+
+  &__title {
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    padding-bottom: 32px;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}
+
+.img__wrapper {
+  margin-bottom: 16px;
+  &--1 {
+    padding-right: 10%;
+    @include media-breakpoint-down-sm {
+      padding: 0;
+    }
+  }
+
+  &--2 {
+    padding-left: 10%;
+    @include media-breakpoint-down-sm {
+      padding: 0;
+    }
+  }
+}

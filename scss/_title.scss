@@ -1,2 +1,56 @@
-@import "colors";
-@import "fonts";
+.title {
+  font-family: $josefin;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 52px;
+  text-transform: uppercase;
+
+  &-2 {
+    font-family: $aleo;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: capitalize;
+  }
+
+  &-3 {
+    font-family: $josefin;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  &-5 {
+    font-family: $josefin;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+
+  &--small {
+    font-family: $josefin;
+    font-weight: 300;
+    font-style: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+  }
+}
+.subtitle {
+  font-family: $josefin;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.31em;
+
+  &--small {
+    font-family: $josefin;
+    font-weight: normal;
+    font-style: 14px;
+    letter-spacing: 0.2em;
+    line-height: 20px;
+  }
+}

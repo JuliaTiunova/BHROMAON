@@ -1,0 +1,13 @@
+.travel {
+  padding-top: 220px;
+  padding-bottom: 120px;
+
+  &-ad-up {
+    background: url(../img/section_bg_1.png) center center no-repeat;
+    background-size: cover;
+  }
+  &-ad-down {
+    background: url(../img/section_bg_2.png) center center no-repeat;
+    background-size: cover;
+  }
+}

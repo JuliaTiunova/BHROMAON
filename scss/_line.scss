@@ -1,0 +1,16 @@
+.line {
+  width: 874px;
+  height: 92px;
+  @include media-breakpoint-down-xl {
+    width: 750px;
+    height: 85px;
+  }
+  @include media-breakpoint-down-lg {
+    width: 630px;
+    height: 75px;
+  }
+
+  @include media-breakpoint-down-md {
+    display: none;
+  }
+}

@@ -1,0 +1,75 @@
+.header {
+  min-height: 100vh;
+  background: url(../img/HeaderBackground.png) center center no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 295px;
+  padding-bottom: 120px;
+
+  &__title {
+    margin-bottom: 8px;
+  }
+
+  &__subtitle {
+    margin-bottom: 45px;
+  }
+
+  &__form {
+    margin-bottom: 210px;
+  }
+
+  &__button {
+    margin-left: -142px;
+  }
+
+  &__scroll {
+    height: 40px;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__search {
+    width: 647px;
+    height: 60px;
+    padding-left: 36px;
+    padding-right: 145px;
+    font-family: $josefin;
+    color: $text-grey;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+
+    &:focus {
+      outline: none;
+      border: 3px solid $accent;
+    }
+
+    @include media-breakpoint-down-md {
+      width: 540px;
+    }
+
+    @include media-breakpoint-down-xs {
+      width: 95%;
+      letter-spacing: 0.1em;
+      padding-left: 10px;
+    }
+  }
+
+  &-search {
+    font-style: 16px;
+  }
+}
+
+.scroll {
+  &-text {
+    font-family: $josefin;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+  }
+  &-icon {
+    font-size: 16px;
+  }
+}

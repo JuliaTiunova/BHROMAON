@@ -1,14 +1,30 @@
 @import "bootstrap-grid.min";
 @import "normalize";
-@import "button";
-@import "colors";
 @import "fonts";
+@import "colors";
+@import "mixin";
+@import "button";
 @import "title";
 @import "form";
-@import "mixin";
+@import "menu";
+@import "burger";
+@import "header";
+@import "text";
+@import "link";
+@import "article";
+@import "why";
+@import "steps";
+@import "travel-ad";
+@import "card";
+@import "what";
+@import "footer";
+@import "social";
+@import "line";
+@import "quote";
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: $white;
 }

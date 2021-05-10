@@ -1,0 +1,22 @@
+.link {
+  text-decoration: none;
+  font-family: $aleo;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: flex;
+  align-self: center;
+  transition: all 0.2s;
+  &:hover {
+    color: $accent-darker;
+    text-shadow: 20px 20px 50px $white, 20px -20px 50px $white,
+      -20px -20px 50px $white, -20px 20px 50px $white;
+    transition: all 1s;
+  }
+
+  &-icon {
+    text-decoration: none;
+  }
+}

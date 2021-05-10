@@ -1,0 +1,8 @@
+.quote::before {
+  content: "\e905";
+  font-family: "icomoon";
+  color: $accent;
+  font-size: 20px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+}
