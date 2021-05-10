@@ -5153,7 +5153,7 @@ template {
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  list-style-position: 0.07em;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
   border: none;
   -webkit-transition: all 0.5s;
@@ -5162,8 +5162,6 @@ template {
 
 .button:hover {
   background-position-x: -100%;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
   cursor: pointer;
 }
 
@@ -5177,7 +5175,6 @@ template {
 .button--small {
   min-width: 138px;
   height: 52px;
-  margin-left: -142px;
   background-color: #5373fd;
   text-align: center;
   border: none;
@@ -5462,6 +5459,10 @@ template {
   margin-bottom: 210px;
 }
 
+.header__button {
+  margin-left: -142px;
+}
+
 .header__scroll {
   height: 40px;
 }
@@ -5474,6 +5475,7 @@ template {
   width: 647px;
   height: 60px;
   padding-left: 36px;
+  padding-right: 145px;
   font-family: "Josefin Sans", sans-serif;
   color: #999999;
   font-weight: normal;
@@ -5492,7 +5494,7 @@ template {
   }
 }
 
-@media (max-width: 566.98px) {
+@media (max-width: 575.98px) {
   .header__search {
     width: 95%;
     letter-spacing: 0.1em;
@@ -5753,26 +5755,16 @@ template {
   margin-bottom: 60px;
 }
 
-.what__img {
-  height: 100%;
-  background: url(../img/ReviewPhoto.png) center center no-repeat;
-  background-size: cover;
-}
-
-@media (max-width: 991.98px) {
-  .what__img {
-    display: none;
-  }
-}
-
 .what__img--mobile {
-  display: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 991.98px) {
   .what__img--mobile {
-    display: inline-block;
-    width: 100%;
+    display: block;
   }
 }
 
@@ -5862,6 +5854,15 @@ template {
   .line {
     display: none;
   }
+}
+
+.quote::before {
+  content: "\e905";
+  font-family: "icomoon";
+  color: #5373fd;
+  font-size: 20px;
+  padding-right: 5px;
+  padding-bottom: 15px;
 }
 
 * {
