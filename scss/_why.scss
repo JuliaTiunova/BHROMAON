@@ -1,39 +1,56 @@
 .why {
   background: url(../img/WhyBackground.png) center center no-repeat;
   background-size: cover;
-  padding-top: 125px;
-  padding-bottom: 125px;
+  padding-top: 124px;
+  padding-bottom: 124px;
+
+  @include media-breakpoint-down-md {
+    padding: 60px 0;
+  }
 
   &__wrapper {
     height: 100%;
     @include flex-column;
+
+    @include media-breakpoint-down-md {
+      @include flex-center;
+      padding-top: 32px;
+    }
   }
 
   &__title {
+    margin-top: -10px;
     margin-bottom: 24px;
   }
 
   &__text {
-    padding-bottom: 32px;
+    margin-bottom: 32px;
+    @include media-breakpoint-down-md {
+      margin-bottom: 24px;
+    }
   }
 
   &__img {
-    width: 100%;
+    height: 100%;
+    @include media-breakpoint-down-md {
+      width: 100%;
+      height: auto;
+    }
   }
 }
 
 .img__wrapper {
-  margin-bottom: 16px;
-  &--1 {
-    padding-right: 10%;
-    @include media-breakpoint-down-sm {
-      padding: 0;
-    }
-  }
+  margin-bottom: 14px;
+  // &--1 {
+  //   padding-right: 10%;
+  //   @include media-breakpoint-down-sm {
+  //     padding: 0;
+  //   }
+  // }
 
   &--2 {
-    padding-left: 10%;
-    @include media-breakpoint-down-sm {
+    padding-left: 16%;
+    @include media-breakpoint-down-lg {
       padding: 0;
     }
   }

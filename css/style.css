@@ -5173,7 +5173,7 @@ template {
 }
 
 .button--small {
-  min-width: 138px;
+  min-width: 139px;
   height: 52px;
   background-color: #5373fd;
   text-align: center;
@@ -5212,6 +5212,7 @@ template {
   font-size: 48px;
   line-height: 52px;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .title-2 {
@@ -5259,7 +5260,7 @@ template {
 .subtitle--small {
   font-family: "Josefin Sans", sans-serif;
   font-weight: normal;
-  font-style: 14px;
+  font-size: 14px;
   letter-spacing: 0.2em;
   line-height: 20px;
 }
@@ -5355,7 +5356,7 @@ template {
 }
 
 .menu__item:not(:last-child) {
-  margin-right: 38px;
+  margin-right: 40px;
 }
 
 @media (max-width: 991.98px) {
@@ -5452,15 +5453,15 @@ template {
 }
 
 .header__subtitle {
-  margin-bottom: 45px;
+  margin-bottom: 47px;
 }
 
 .header__form {
-  margin-bottom: 210px;
+  margin-bottom: 211px;
 }
 
 .header__button {
-  margin-left: -142px;
+  margin-left: -145px;
 }
 
 .header__scroll {
@@ -5475,10 +5476,11 @@ template {
   width: 647px;
   height: 60px;
   padding-left: 36px;
-  padding-right: 145px;
+  padding-right: 144px;
   font-family: "Josefin Sans", sans-serif;
   color: #999999;
   font-weight: normal;
+  border: none;
   font-size: 14px;
   letter-spacing: 0.2em;
 }
@@ -5488,7 +5490,7 @@ template {
   border: 3px solid #5373fd;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 767.98px) {
   .header__search {
     width: 540px;
   }
@@ -5510,6 +5512,7 @@ template {
   font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   letter-spacing: 0.2em;
+  margin-bottom: 4px;
 }
 
 .scroll-icon {
@@ -5562,12 +5565,14 @@ template {
   z-index: 10;
   top: 0;
   background-color: #5373fd;
+  height: 84px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
 @media (max-width: 991.98px) {
   .article__header {
+    height: 136px;
     text-align: center;
   }
 }
@@ -5587,8 +5592,14 @@ template {
 .why {
   background: url(../img/WhyBackground.png) center center no-repeat;
   background-size: cover;
-  padding-top: 125px;
-  padding-bottom: 125px;
+  padding-top: 124px;
+  padding-bottom: 124px;
+}
+
+@media (max-width: 991.98px) {
+  .why {
+    padding: 60px 0;
+  }
 }
 
 .why__wrapper {
@@ -5605,37 +5616,56 @@ template {
           justify-content: center;
 }
 
+@media (max-width: 991.98px) {
+  .why__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 32px;
+  }
+}
+
 .why__title {
+  margin-top: -10px;
   margin-bottom: 24px;
 }
 
 .why__text {
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
-.why__img {
-  width: 100%;
-}
-
-.img__wrapper {
-  margin-bottom: 16px;
-}
-
-.img__wrapper--1 {
-  padding-right: 10%;
-}
-
-@media (max-width: 767.98px) {
-  .img__wrapper--1 {
-    padding: 0;
+@media (max-width: 991.98px) {
+  .why__text {
+    margin-bottom: 24px;
   }
 }
 
-.img__wrapper--2 {
-  padding-left: 10%;
+.why__img {
+  height: 100%;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
+  .why__img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.img__wrapper {
+  margin-bottom: 14px;
+}
+
+.img__wrapper--2 {
+  padding-left: 16%;
+}
+
+@media (max-width: 1199.98px) {
   .img__wrapper--2 {
     padding: 0;
   }
@@ -5664,7 +5694,7 @@ template {
 }
 
 .steps__title {
-  margin-top: 10px;
+  margin-top: 4px;
 }
 
 @media (max-width: 1399.98px) {
@@ -5673,15 +5703,16 @@ template {
   }
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1199.98px) {
   .steps {
     padding-top: 45px;
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
   .steps {
     padding-top: 60px;
+    padding-bottom: 0;
   }
 }
 
@@ -5689,9 +5720,9 @@ template {
   text-align: center;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
   .step {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
 }
 
@@ -5720,6 +5751,12 @@ template {
   padding-bottom: 120px;
 }
 
+@media (max-width: 991.98px) {
+  .travel {
+    padding-top: 120px;
+  }
+}
+
 .travel-ad-up {
   background: url(../img/section_bg_1.png) center center no-repeat;
   background-size: cover;
@@ -5732,7 +5769,7 @@ template {
 
 .card {
   background-color: #23232390;
-  padding: 45px 30px;
+  padding: 45px 32px;
 }
 
 .card__title {
@@ -5765,12 +5802,19 @@ template {
 @media (max-width: 991.98px) {
   .what__img--mobile {
     display: block;
+    height: 336px;
   }
 }
 
 .what__card {
   padding: 48px 60px;
   height: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .what__card {
+    padding: 48px 58px;
+  }
 }
 
 .what__card-title {

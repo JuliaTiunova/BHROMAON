@@ -2,6 +2,10 @@
   padding-top: 220px;
   padding-bottom: 120px;
 
+  @include media-breakpoint-down-md {
+    padding-top: 120px;
+  }
+
   &-ad-up {
     background: url(../img/section_bg_1.png) center center no-repeat;
     background-size: cover;

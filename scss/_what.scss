@@ -17,6 +17,7 @@
 
       @include media-breakpoint-down-md {
         display: block;
+        height: 336px;
       }
     }
   }
@@ -24,6 +25,9 @@
   &__card {
     padding: 48px 60px;
     height: 100%;
+    @include media-breakpoint-down-md {
+      padding: 48px 58px;
+    }
 
     &-title {
       margin-bottom: 10px;
